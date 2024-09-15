@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
@@ -37,23 +37,23 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/Profile picture.jpg" alt="Dominic Paetsch profile picture">
+            <img src="./assets/Profile picture 2.JPEG" alt="Dominic Paetsch profile picture" class="profile-picture">
         </div>
         <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
+            <p class="section__text__p1">Hello there, I'm</p>
             <h1 class="title">Dominic Paetsch</h1>
             <p class="section__text__p2">Computer Science Student @ ETHZ</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open(`./assets/resume-example.pdf`)">
+                <button class="btn btn-color-2" onclick="window.open(`./assets/CV_Dominic_Paetsch_2024.pdf`)">
                     Download CV
                 </button>
-                <button class="btn btn-color-1" onclick="location.href=`./#contant`">
+                <button class="btn btn-color-1" onclick="location.href=`./#contact`">
                     Contact Info
                 </button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclikc="location.href=`https://linkedin.com/`">
-                <img src="./assets/github.png" alt="My GitHub profile" class="icon" onclikc="location.href=`https://github.com/`">
+                <img src="./assets/other-linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href=`linkedin.com/in/dominic-paetsch-9333b0329`">
+                <img src="./assets/github.png" alt="My GitHub profile" class="icon" onclick="location.href=`https://github.com/dpaetsch`">
             </div>
         </div>
     </section>
@@ -62,29 +62,29 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic">
+                <img src="./assets/Profile picture.jpg" alt="Profile Picture" class="about-pic">
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="Experience icon" class="icon">
-                        <h3 Experience></h3>
-                        <p>2+ Years <br>Frontend Development</p> 
+                        <h3 class="details-container-h3">Experience</h3>
+                        <p>5+ Years<br>Personal Projects</p> 
                     </div>
                     <div class="details-container">
                         <img src="./assets/education.png" alt="Education icon" class="icon">
-                        <h3 Education></h3>
-                        <p>Computer Science Bachelor</p> 
+                        <h3 class="details-container-h3">Education</h3>
+                        <p>Computer Science<br>Bachelor</p> 
                     </div> 
                 </div>
                 <div class="text-container">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati possimus totam repellat aut fuga quia eos, labore eum nesciunt porro modi quidem illum mollitia ipsa distinctio eaque reiciendis. Velit, laborum.
+                        Hi! I'm a computer science bachelor's student with a passion for learning and exploring new ideas. I love diving into challenges, whether it's coding, outdoor adventures, or trying out new hobbies. When I'm not studying or experimenting with tech, you can find me running, playing sports, or enjoying a peaceful walk. I'm also passionate about making music and expressing creativity in different forms. Always excited to see where curiosity will take me next!
                     </p>
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href=`./#experience`">
+        <img src="./assets/arrow2.png" alt="Arrow icon" class="icon arrow" onclick="location.href=`./#experience`">
     </section>
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
@@ -92,7 +92,54 @@
         <div class="expereince-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <h2 class="experience-sub-title">Programming Experience</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C++</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Haskell</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Swift</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Development</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
@@ -111,63 +158,15 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>SASS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
                                 <h3>Javascript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Material UI</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets//checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Typescript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>PostgreSQL</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>Node JS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Express JS</h3>
+                                <h3>PHP</h3>
                                 <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Git</h3>
-                                <p>Basic</p>
                             </div>
                         </article>
 
@@ -175,7 +174,7 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href=`./#projects`">
+        <img src="./assets/arrow2.png" alt="Arrow icon" class="icon arrow" onclick="location.href=`./#projects`">
     </section>
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
@@ -184,22 +183,22 @@
             <div class="about-containers">
                 <div class="details-container color-container">
                 <div class="article-container">
-                    <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                    <img src="./assets/Processing.jpg" alt="Project 1" class="project-img">
                 </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
+                <h2 class="experience-sub-title project-title">50+ Processing Projects</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href`https://github.com/`">GitHub</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href`https://github.com/`">Live Demo</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=`https://github.com/dpaetsch/Processing-Bouncing-Balls`">GitHub</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=`https://github.com/`">Live Demo</button>
                 </div>
                 </div>
                 <div class="details-container color-container">
                 <div class="article-container">
-                    <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+                    <img src="./assets/VR Project image.png" alt="Project 2" class="project-img">
                 </div>
-                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <h2 class="experience-sub-title project-title">Impossible Spaces in VR</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href`https://github.com/`">GitHub</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href`https://github.com/`">Live Demo</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=`https://github.com/dpaetsch/Impossible-Spaces-VR`">GitHub</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=`https://github.com/`">Live Demo</button>
                 </div>
                 </div>
                 <div class="details-container color-container">
@@ -208,24 +207,24 @@
                 </div>
                 <h2 class="experience-sub-title project-title">Project Three</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href`https://github.com/`">GitHub</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href`https://github.com/`">Live Demo</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=`https://github.com/`">GitHub</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=`https://github.com/`">Live Demo</button>
                 </div>
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href=`./#contact`">
+        <img src="./assets/arrow2.png" alt="Arrow icon" class="icon arrow" onclick="location.href=`./#contact`">
     </section>
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
-                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
-                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+                <img src="./assets/Email2.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:examplemail@gmail.com">paetschdominic@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
-                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                <img src="./assets/linkedin2.png" alt="LinkedIn icon" class="icon contact-icon">
                 <p><a href="https://www.linkedin.com">LinkedIn</a></p>
             </div>
         </div>
