@@ -226,13 +226,22 @@ section {
     gap: 1rem;
 }
 
+#linkedin-container {
+    /* background-color: white;  */
+    display: inline-block;
+}
+
+
+
 
 
 /* ICONS */
 .icon {
     cursor: pointer;
-    height: 2rem;
+    height: 1.9rem;
     color:white;
+    background-color: white;
+    border-radius: 100%;
 }
 
 
@@ -454,6 +463,8 @@ article .icon {
 .contact-icon {
     cursor: default;
     height: 2rem;
+    color:black;
+    background-color: black;
 }
 
 .email-icon {
