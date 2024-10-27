@@ -219,18 +219,42 @@ section {
     color:white;
 }
 
+.socials-container-text {
+    color: gray;
+    text-align: center;
+
+    &a {
+        color: gray;
+    }
+}
+
+
+
+
 #socials-conainter {
     display: flex;
     justify-content: center;
-    margin-top:1rem;
+    margin:1rem;
     gap: 1rem;
+    padding-top: 10rem;
 }
 
 #linkedin-container {
     /* background-color: white;  */
     display: inline-block;
+    padding:1rem;
 }
 
+#github-container {
+    /* background-color: white; */
+    display: inline-block;
+    padding:1rem;
+}
+
+.git {
+    height: 4.0 rem;
+
+}
 
 
 
